@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/444c0f96d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form>
+        <input type="text" class="search-bar" placeholder="Enter CIty">
+        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+    </form> -->
+    <form action="" class="search-bar">
+        <input type="search" name="search" pattern=".*\S.*" required id="search">
+        <button class="search-btn" type="submit">
+            <span>Search</span>
+        </button>
+    </form>
+    <main id="main">
+        <h3 class="city-label">City:</h3>
+        <h1 class="city-text">Nagpur</h1>
+
+        <div class="temperatur-detail">
+            <h1 class="temperature-value">33°C</h1>
+            <div class="icon">
+
+            </div>
+        </div>
+        <h3 class="description">light rain</h3>
+            <div class="extra-details">
+                
+                <div class="feels-like-div">
+                    <h3 class="extra-details-texts">feels like</h3>
+                    <h4 class="feels-like">30</h4>
+                </div>
+                <div class="humidity-div">
+                    <h3 class="extra-details-texts">humidity</h3>
+                    <h4 class="humidity">50%</h4>
+                </div>
+                <div class="wind-div">
+                    <h3 class="extra-details-texts">Wind</h3>
+                    <h4 class="wind">3km/hr</h4>
+                </div>
+            </div>
+        
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
