@@ -15,7 +15,7 @@ start('nagpur');
 
 async function start(cityName){
    try{
-    const calling = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=metric`)
+    const calling = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=metric`)
 
     if (!calling.ok) {
         throw new Error("Network response was not ok");
